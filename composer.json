@@ -1,8 +1,8 @@
 {
-  "name": "mantik/module-currency-convertapi",
+  "name": "mantiktech/magento2-currency-convertapi",
   "description": "Mantik Currency Convert API integration for Magento 2",
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "require": {
     "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
   },

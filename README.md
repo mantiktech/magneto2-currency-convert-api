@@ -1,5 +1,9 @@
 # Mantik Currency Convert API
 
+
+![Magento 2.4 Supported](https://img.shields.io/badge/magento-2.4.0%E2%80%932.4.7+-brightgreen.svg?logo=magento&longCache=true&style=flat-square)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Módulo de Magento 2 para actualizar los precios de un store view en pesos Argentinos y los productos en dólares estadounidenses mediante una API externa gratuita.
 
 ## Descripción
@@ -45,4 +49,3 @@ Este módulo se distribuye bajo licencia MIT. Copyright © Mantik.
 
 ## Soporte
 Para soporte y mejoras, contactar al equipo de [Mantik](https://www.mantik.tech/).
-
