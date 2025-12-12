@@ -31,7 +31,7 @@ Módulo de Magento 2 para actualizar los precios de un store view en pesos Argen
 
 ### Instalar vía Composer (repositorio privado)
 1. Requerir el paquete:
-   - `composer require mantik/module-currency-convertapi:*`
+   - `composer require mantiktech/magento2-currency-convertapi`
 2. Ejecutar comandos de Magento:
    - `bin/magento module:enable Mantik_CurrencyConvertapi`
    - `bin/magento setup:upgrade`
