@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="currency">
+            <group id="currencyconvertapi" translate="label" sortOrder="46" showInDefault="1" showInWebsite="1" showInStore="1" >
+                <label>Mantik Currency Convert API</label>
+                <field id="api_url" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>API URL</label>
+                    <frontend_class>validate-url</frontend_class>
+                    <config_path>currency/currencyconvertapi/api_url</config_path>
+                </field>
+                <field id="json_name" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>JSON name</label>
+                    <config_path>currency/currencyconvertapi/json_name</config_path>
+                </field>
+                <field id="add_fixed_amount" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Add Fixed Amount</label>
+                    <frontend_class>validate-number validate-zero-or-greater</frontend_class>
+                    <config_path>currency/currencyconvertapi/add_fixed_amount</config_path>
+                </field>
+            </group>
+        </section>
+    </system>
+ </config>

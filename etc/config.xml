@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/config.xsd">
+    <default>
+        <currency>
+            <currencyconvertapi>
+                <api_url>https://dolarapi.com/v1/dolares/blue</api_url>
+                <json_name>venta</json_name>
+                <add_fixed_amount>40</add_fixed_amount>
+            </currencyconvertapi>
+        </currency>
+    </default>
+</config>
