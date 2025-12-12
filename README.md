@@ -44,5 +44,5 @@ Módulo de Magento 2 para actualizar los precios de un store view en pesos Argen
 Este módulo se distribuye bajo licencia MIT. Copyright © Mantik.
 
 ## Soporte
-Para soporte y mejoras, contactar al equipo de [Mantik](https://www.mantik.com.ar).
+Para soporte y mejoras, contactar al equipo de [Mantik](https://www.mantik.tech/).
 
